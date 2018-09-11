@@ -6,8 +6,17 @@
     <title>Title</title>
 </head>
 <body>
-    <div id="example"></div>
+    <input type="file" id="file">
+    <div id="handsontable"></div>
+    <!--handsontable dependencies-->
     <script src="node_modules/handsontable/dist/handsontable.full.min.js"></script>
+    <script src="node_modules/handsontable/dist/languages/all.js"></script>
+
+    <!--xlsx-workbook dependencies-->
+    <script lang="javascript" src="node_modules/xlsx/dist/xlsx.full.min.js"></script>
+    <script type="text/javascript" src="xlsx.js"></script>
+
+    <!--main file-->
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
